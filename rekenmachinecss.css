@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+    padding: 0;
+    margin: 0;
+
+
+}
+form {
+    text-align: center;
+    background-color: darkblue;
+    color: ivory;
+    display: inline-block;
+    width: 20rem;
+    height: 25rem;
+}
+
+input {
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 10px;
+    display: inline;
+}
+
+button {
+    border-radius: 10px;
+    color: ivory;
+    background-color: black;
+    display: inline;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+.apart {
+    border-radius: 10px;
+    color: ivory;
+    background-color: green;
+    display: inline;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
